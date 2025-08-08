@@ -1,15 +1,5 @@
 # Rainfall-Analysis-Drought-Assessment-for-the-main-cities-in-Germany
 **Advanced drought monitoring system for German metropolitan areas using Standardized Precipitation Index (SPI) methodology**
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Technical Approach](#technical-approach)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Products](#data-products)
-- [Applications](#applications)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🔍 Overview
 
@@ -60,8 +50,8 @@ Raw Meteorological Data → Quality Assurance → Statistical Modeling → SPI C
 ## 📊 Analysis Framework
 
 ### 2. Exploratory Data Analysis (EDA)
-
 #### 2.1 EDA Component 1: Annual Rainfall Patterns by Climate Type
+<img width="3621" height="1702" alt="rainfall_stacked_bar_simplified" src="https://github.com/user-attachments/assets/09a1abe6-fc53-4e2e-80f2-3ce5e7e7fae7" />
 **Purpose**: Analyze how total annual rainfall varies across different climate types over time.
 
 **Methodology**:
@@ -75,6 +65,9 @@ Raw Meteorological Data → Quality Assurance → Statistical Modeling → SPI C
 - Processed data export (`rainfall_stacked_data.csv`)
 
 #### 2.2 EDA Component 2: Seasonal Rainfall Variations
+<img width="3556" height="2368" alt="Oceanic_climate_rainfall" src="https://github.com/user-attachments/assets/6c926cf5-0ffa-453f-bc79-101926f0cde6" />
+<img width="3557" height="2368" alt="Continental_climate_rainfall" src="https://github.com/user-attachments/assets/ba14a104-676d-4a8f-b148-c54a4cf41008" />
+
 **Purpose**: Examine seasonal rainfall patterns across different climate types and years.
 
 **Methodology**:
@@ -93,6 +86,8 @@ Raw Meteorological Data → Quality Assurance → Statistical Modeling → SPI C
 - Climate-specific seasonal plots (e.g., `[Climate_Type]_climate_rainfall.png`)
 
 #### 2.3 EDA Component 3: Drought Index Calculation (SPI)
+<img width="1885" height="909" alt="SPI dynamic graph" src="https://github.com/user-attachments/assets/6bd2c655-3ef6-4ac1-be2f-7de6a1a7e5ae" />
+
 **Purpose**: Implement the Standardized Precipitation Index for comprehensive drought analysis.
 
 **Methodology**: The SPI calculation process includes:
@@ -154,48 +149,8 @@ Raw Meteorological Data → Quality Assurance → Statistical Modeling → SPI C
    - Comparative analysis across cities
    - Long-term trend identification
 
-## 🚀 Installation
-
-### Prerequisites
-```bash
-Python 3.8+
-pip package manager
-```
-
-### Setup Environment
-```bash
-# Clone repository
-git clone https://github.com/yourusername/rainfall-analysis-germany.git
-cd rainfall-analysis-germany
-
-# Install dependencies
-pip install pandas numpy scipy matplotlib plotly folium requests warnings
-
-# Verify installation
-python --version
-```
-
-### Data Requirements
-- **Input Format**: CSV with fields: City, Latitude, Longitude, Month, Year, Rainfall (mm), Temperature (°C), Humidity (%), Climate_Type, Elevation (m)
-- **Minimum Data**: 30+ monthly observations per location for reliable SPI calculation
-- **Quality Standards**: Missing data <10%, temporal continuity preferred
 
 ## 📖 Usage
-
-### Basic Analysis Pipeline
-```python
-# 1. Data Quality Assessment
-python data_quality_analysis.py
-
-# 2. Exploratory Data Analysis
-python rainfall_eda.py
-
-# 3. SPI Calculation & Classification
-python spi_drought_analysis.py
-
-# 4. Interactive Dashboard Generation
-python create_dashboard.py
-```
 
 ### Key Outputs
 - `Rainfall_Cleaned.csv`: Quality-assured dataset
@@ -210,13 +165,6 @@ python create_dashboard.py
 5. Click markers for detailed meteorological information
 
 ## 📊 Data Products
-
-### Primary Outputs
-| File | Description | Applications |
-|------|-------------|--------------|
-| `spi_tableau_data.csv` | Complete SPI dataset with classifications | GIS analysis, policy development |
-| `spi_annual_summary.csv` | Yearly aggregated statistics | Trend analysis, reporting |
-| `Interactive Dashboard` | Web-based exploration tool | Stakeholder engagement, education |
 
 ### SPI Classification System
 ```
@@ -251,7 +199,8 @@ Slightly Wet:   0.5 to 1.0 │ Slightly Dry:  -1.0 to -0.5
 
 ## 🤝 Contributing
 
-Contributions are welcomed from the data science, hydrology, and water management communities. Please see our [contribution guidelines](CONTRIBUTING.md) for detailed information on:
+Contributions are welcomed from the data science, hydrology, and water management communities. 
+Please see our contribution guidelines for detailed information on:
 
 - Code standards and documentation requirements
 - Data validation protocols
@@ -270,8 +219,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Professional Contact**: [Your Name] | Data Scientist & Water Resources Specialist  
-**Email**: your.email@domain.com | **LinkedIn**: [your-profile]  
+**Professional Contact**: Nekky Lung | Data Scientist & Water Resources Specialist   
 **Research Interests**: Hydroclimatology, Drought Monitoring, Water Security, Climate Adaptation
 
 *Developed for advancing evidence-based water resource management through innovative data science applications.*
