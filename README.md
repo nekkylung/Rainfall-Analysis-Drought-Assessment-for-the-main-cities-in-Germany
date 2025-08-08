@@ -1,5 +1,7 @@
 # Rainfall-Analysis-Drought-Assessment-for-the-main-cities-in-Germany
 **Advanced drought monitoring system for German metropolitan areas using Standardized Precipitation Index (SPI) methodology**
+## 📈 Data Source 
+https://www.kaggle.com/datasets/heidarmirhajisadati/germany-city-rainfall-data/data
 
 ## 🔍 Overview
 
