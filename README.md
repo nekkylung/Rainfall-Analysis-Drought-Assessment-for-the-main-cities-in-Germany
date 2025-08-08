@@ -166,17 +166,6 @@ Raw Meteorological Data → Quality Assurance → Statistical Modeling → SPI C
 4. Filter by time period or year
 5. Click markers for detailed meteorological information
 
-## 📊 Data Products
-
-### SPI Classification System
-```
-Extremely Wet:      ≥ 2.0  │ Extremely Dry:     < -2.0
-Very Wet:      1.5 to 2.0  │ Severely Dry: -2.0 to -1.5
-Moderately Wet: 1.0 to 1.5 │ Moderately Dry: -1.5 to -1.0
-Slightly Wet:   0.5 to 1.0 │ Slightly Dry:  -1.0 to -0.5
-             Near Normal: -0.5 to 0.5
-```
-
 ## 🎯 Applications
 
 ### Water Resource Management
@@ -221,7 +210,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Professional Contact**: Nekky Lung | Data Scientist & Water Resources Specialist   
+**Professional Contact**: Nekky Lung | Data Scientist & Water Resources Specialist| https://www.linkedin.com/in/nekkytang/
 **Research Interests**: Hydroclimatology, Drought Monitoring, Water Security, Climate Adaptation
 
 *Developed for advancing evidence-based water resource management through innovative data science applications.*
